@@ -36,15 +36,15 @@ export default function Nav() {
         }`}
         aria-label="Primary navigation"
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 md:h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 md:h-28 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" aria-label="OptiCore Caribbean — home">
             <Image
               src="/opticore-logo.png"
               alt="OptiCore Caribbean"
-              width={220}
-              height={56}
-              className="h-12 w-auto object-contain"
+              width={320}
+              height={80}
+              className="h-14 md:h-20 w-auto object-contain"
               priority
             />
           </Link>
@@ -85,14 +85,14 @@ export default function Nav() {
         aria-hidden={!mobileOpen}
       >
         {/* Top bar */}
-        <div className="flex items-center justify-between px-6 h-16 border-b border-black flex-shrink-0">
+        <div className="flex items-center justify-between px-6 h-20 border-b border-black flex-shrink-0">
           <Link href="/" onClick={() => setMobileOpen(false)} aria-label="Home">
             <Image
               src="/opticore-logo.png"
               alt="OptiCore Caribbean"
-              width={200}
-              height={48}
-              className="h-11 w-auto object-contain"
+              width={280}
+              height={64}
+              className="h-14 w-auto object-contain"
             />
           </Link>
           <button
