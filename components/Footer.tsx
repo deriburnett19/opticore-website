@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Logo */}
         <Link href="/" aria-label="OptiCore Caribbean — home">
           <Image
-            src="/opticore-logo.svg"
+            src="/opticore-icon.svg"
             alt="OptiCore Caribbean"
             width={200}
             height={56}

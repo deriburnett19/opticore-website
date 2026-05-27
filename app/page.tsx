@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import CTAButton from '@/components/CTAButton'
 import SectionHeading from '@/components/SectionHeading'
 import ValueRow from '@/components/ValueRow'
@@ -84,6 +85,14 @@ export default function HomePage() {
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-24 w-full">
           <div className="max-w-3xl">
+            <Image
+              src="/opticore-logo.svg"
+              alt="OptiCore Caribbean"
+              width={320}
+              height={80}
+              className="h-16 md:h-24 w-auto object-contain mb-10"
+              priority
+            />
             <p className="text-label mb-7 opacity-50">BUSINESS EFFICIENCY ENGINEERS</p>
 
             <h1 className="font-display font-extrabold uppercase text-hero tracking-tightest mb-8">
