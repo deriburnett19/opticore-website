@@ -20,34 +20,6 @@ const FEATURES = [
   'WhatsApp integration — enquiries, reminders, and status updates via WhatsApp',
 ]
 
-const STACK = [
-  'Next.js',
-  'React Native',
-  'PostgreSQL',
-  'Supabase',
-  'Cloudinary',
-  'Stripe',
-  'Algolia',
-]
-
-const STATS = [
-  {
-    value: '9',
-    label: 'TABLE DATABASE',
-    context: 'Architecture spanning vehicles, users, listings, mechanics, parts, transactions, inspections, documents, and media',
-  },
-  {
-    value: '14',
-    label: 'MONTH ROADMAP',
-    context: 'Phased delivery across three major releases — MVP, marketplace, and full platform',
-  },
-  {
-    value: '8',
-    label: 'REVENUE STREAMS',
-    context: 'Listing fees, subscription tiers, parts marketplace commission, featured placements, inspection services, and more',
-  },
-]
-
 export default function CarhubCaseStudyPage() {
   return (
     <>
@@ -112,49 +84,6 @@ export default function CarhubCaseStudyPage() {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── THE STACK ────────────────────────────────────────────────── */}
-      <section className="border-b border-black">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-24">
-          <h2 className="font-display font-extrabold uppercase text-[clamp(1.6rem,3vw,2.2rem)] tracking-tightest leading-none mb-12">
-            THE STACK
-          </h2>
-          <div className="flex flex-wrap gap-x-0 gap-y-0 border border-black">
-            {STACK.map((tech, i) => (
-              <div
-                key={tech}
-                className={`px-8 py-5 font-display font-extrabold uppercase text-xl tracking-tightest border-black ${
-                  i !== STACK.length - 1 ? 'border-r' : ''
-                } border-b last:border-b-0 sm:border-b-0`}
-              >
-                {tech}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── THE RESULT ───────────────────────────────────────────────── */}
-      <section className="border-b border-black bg-black text-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-28">
-          <h2 className="font-display font-extrabold uppercase text-[clamp(1.6rem,3vw,2.2rem)] tracking-tightest leading-none mb-16 text-white">
-            THE RESULT
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/20">
-            {STATS.map((stat) => (
-              <div key={stat.label} className="py-10 md:py-0 md:px-10 first:pl-0 last:pr-0">
-                <p className="font-display font-extrabold uppercase text-[clamp(3rem,6vw,5rem)] tracking-tightest leading-none mb-3 text-white">
-                  {stat.value}
-                </p>
-                <p className="text-label text-white opacity-60 mb-3">{stat.label}</p>
-                <p className="font-sans text-sm leading-relaxed text-white/70">
-                  {stat.context}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
