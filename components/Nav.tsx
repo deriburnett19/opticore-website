@@ -31,7 +31,7 @@ export default function Nav() {
     <>
       {/* ── Desktop nav ── */}
       <nav
-        className={`fixed top-0 left-0 right-0 z-40 bg-white transition-all duration-200 ${
+        className={`fixed top-0 left-0 right-0 z-40 bg-white/80 backdrop-blur-md transition-all duration-200 ${
           scrolled ? 'border-b border-black' : ''
         }`}
         aria-label="Primary navigation"

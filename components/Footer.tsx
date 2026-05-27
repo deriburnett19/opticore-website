@@ -3,7 +3,10 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-black">
+    <footer>
+      {/* Decorative gradient separator */}
+      <div className="h-px bg-gradient-to-r from-transparent via-black to-transparent" />
+      <div className="h-px bg-gradient-to-r from-transparent via-black/30 to-transparent mt-1" />
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Logo */}
         <Link href="/" aria-label="OptiCore Caribbean — home">
