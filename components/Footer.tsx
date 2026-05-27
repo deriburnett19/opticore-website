@@ -10,9 +10,9 @@ export default function Footer() {
           <Image
             src="/opticore-logo.png"
             alt="OptiCore Caribbean"
-            width={110}
-            height={30}
-            className="h-6 w-auto object-contain"
+            width={160}
+            height={44}
+            className="h-10 w-auto object-contain"
           />
         </Link>
 

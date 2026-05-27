@@ -42,9 +42,9 @@ export default function Nav() {
             <Image
               src="/opticore-logo.png"
               alt="OptiCore Caribbean"
-              width={140}
-              height={36}
-              className="h-8 w-auto object-contain"
+              width={220}
+              height={56}
+              className="h-12 w-auto object-contain"
               priority
             />
           </Link>
@@ -90,9 +90,9 @@ export default function Nav() {
             <Image
               src="/opticore-logo.png"
               alt="OptiCore Caribbean"
-              width={120}
-              height={32}
-              className="h-7 w-auto object-contain"
+              width={200}
+              height={48}
+              className="h-11 w-auto object-contain"
             />
           </Link>
           <button
