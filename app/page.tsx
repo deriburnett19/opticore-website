@@ -89,7 +89,7 @@ export default function HomePage() {
               alt="OptiCore Caribbean"
               className="h-64 md:h-80 w-auto mb-10"
             />
-            <p className="text-label mb-7 opacity-50">BUSINESS EFFICIENCY ENGINEERS</p>
+            <p className="text-sm md:text-base font-medium tracking-[0.15em] uppercase mb-7 opacity-50">BUSINESS EFFICIENCY ENGINEERS</p>
 
             <h1 className="font-display font-extrabold uppercase text-hero tracking-tightest mb-8">
               AI THAT RUNS YOUR BUSINESS BETTER.
