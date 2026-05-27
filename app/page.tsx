@@ -87,7 +87,7 @@ export default function HomePage() {
             <img
               src="/opticore-logo.svg"
               alt="OptiCore Caribbean"
-              className="h-48 md:h-64 w-auto mb-10"
+              className="h-64 md:h-80 w-auto mb-10"
             />
             <p className="text-label mb-7 opacity-50">BUSINESS EFFICIENCY ENGINEERS</p>
 
