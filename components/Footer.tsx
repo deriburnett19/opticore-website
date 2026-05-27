@@ -12,7 +12,7 @@ export default function Footer() {
             alt="OptiCore Caribbean"
             width={200}
             height={56}
-            className="h-20 w-auto object-contain"
+            className="h-36 w-auto object-contain"
           />
         </Link>
 
