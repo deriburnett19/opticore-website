@@ -59,14 +59,6 @@ const SERVICES = [
   },
 ]
 
-const INDUSTRIES = [
-  'AUTOMOTIVE',
-  'HOSPITALITY',
-  'LOGISTICS',
-  'RETAIL',
-  'PROFESSIONAL SERVICES',
-  'AGRICULTURE',
-]
 
 export default function HomePage() {
   return (
@@ -154,23 +146,6 @@ export default function HomePage() {
           {/* Case study preview card */}
           <div className="mt-16 aspect-[16/7] bg-[#F5F5F5] border border-black flex items-center justify-center">
             <span className="text-label opacity-30">CARHUB BARBADOS — PROJECT PREVIEW</span>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── INDUSTRIES STRIP ────────────────────────────────────────── */}
-      <section className="border-t border-b border-black overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-12">
-          <p className="text-label opacity-40 mb-8">INDUSTRIES WE SERVE</p>
-          <div className="flex flex-wrap gap-x-8 gap-y-4 md:gap-x-14">
-            {INDUSTRIES.map((industry) => (
-              <span
-                key={industry}
-                className="font-display font-extrabold uppercase text-[clamp(1.25rem,3vw,2rem)] tracking-tightest leading-none opacity-90"
-              >
-                {industry}
-              </span>
-            ))}
           </div>
         </div>
       </section>
