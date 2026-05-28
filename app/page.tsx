@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 import SectionHeading from '@/components/SectionHeading'
 import ValueRow from '@/components/ValueRow'
@@ -111,41 +110,6 @@ export default function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-12">
           <CTAButton href="/services">SEE FULL SERVICE DETAILS →</CTAButton>
-        </div>
-      </section>
-
-      {/* ─── FEATURED WORK ───────────────────────────────────────────── */}
-      <section className="border-t border-black" aria-labelledby="work-heading">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-24">
-          <p className="text-label opacity-50 mb-6">RECENT WORK</p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
-            <div>
-              <h2
-                id="work-heading"
-                className="font-display font-extrabold uppercase text-section tracking-tightest leading-none"
-              >
-                CARHUB BARBADOS
-              </h2>
-            </div>
-            <div className="lg:pb-2">
-              <p className="font-sans text-[1.0625rem] leading-relaxed mb-8">
-                Barbados's first comprehensive automotive platform — vehicle management,
-                mechanic discovery, parts marketplace, and BTA inspection reminders in
-                one unified system.
-              </p>
-              <Link
-                href="/work/carhub-barbados"
-                className="text-label border-b border-black pb-1 hover:opacity-40 transition-opacity"
-              >
-                VIEW CASE STUDY →
-              </Link>
-            </div>
-          </div>
-
-          {/* Case study preview card */}
-          <div className="mt-16 aspect-[16/7] bg-[#F5F5F5] border border-black flex items-center justify-center">
-            <span className="text-label opacity-30">CARHUB BARBADOS — PROJECT PREVIEW</span>
-          </div>
         </div>
       </section>
 

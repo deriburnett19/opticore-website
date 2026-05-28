@@ -6,7 +6,6 @@ import Image from 'next/image'
 
 const NAV_LINKS = [
   { href: '/services', label: 'SERVICES' },
-  { href: '/work/carhub-barbados', label: 'WORK' },
   { href: '/about', label: 'ABOUT' },
   { href: '/contact', label: 'CONTACT' },
 ]
