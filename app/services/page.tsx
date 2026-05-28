@@ -4,10 +4,11 @@ import CTAButton from '@/components/CTAButton'
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Three engagements. One outcome: a business that runs itself better. Process Audit, System Design, and Implementation & Retainer.',
+    'Three engagements. One outcome: a business that runs itself better. Process Audit, System Design, and Implementation & Retainer — automation and AI systems built for Caribbean businesses, with human oversight at every stage.',
   openGraph: {
     title: 'Services — OptiCore Caribbean',
-    description: 'Three engagements. One outcome: a business that runs itself better.',
+    description:
+      'Three engagements. One outcome: a business that runs itself better. Custom automation and AI systems built for Caribbean businesses — no hype, just results.',
   },
 }
 
@@ -16,7 +17,7 @@ const SERVICES = [
     id: 'process-audit',
     name: 'PROCESS AUDIT',
     tagline: 'Find the friction. Quantify the cost.',
-    what: `We spend time with your team — observing, interviewing, and documenting every workflow from front-office operations to back-office processes. We identify every friction point, every manual bottleneck, and every hour lost to work that a system could handle. You receive a precise cost-of-inefficiency report with a prioritised opportunity matrix.`,
+    what: `We spend time with your team — observing, interviewing, and mapping every workflow from front-office operations to back-office processes. We identify every friction point, every manual bottleneck, and every hour lost to work that a well-designed system could handle. You receive a precise cost-of-inefficiency report, a prioritised opportunity matrix, and — where the honest answer is to leave things alone — we'll say that too.`,
     whoFor: [
       'Growing businesses spending money on manual, repetitive tasks',
       'Companies preparing for a fundraise or acquisition that need clean operations',
@@ -38,7 +39,7 @@ const SERVICES = [
     id: 'system-design',
     name: 'SYSTEM DESIGN',
     tagline: 'Architecture built around how you actually work.',
-    what: `Based on your audit findings, we design a custom system architecture built around your actual operations. Not a generic SaaS subscription. Not a chatbot. A purpose-built system with a defined data model, integration plan, and phased implementation roadmap that your team can understand and own.`,
+    what: `Based on your audit findings — or your own internal analysis — we design a system architecture built around how your operations actually run. Not a generic SaaS stack. Not a chatbot bolted onto your website. A purpose-built system with a clear data model, integration plan, and phased roadmap your team can understand, own, and run without depending on us.`,
     whoFor: [
       'Businesses who have completed or have equivalent insight to a Process Audit',
       'Operations teams ready to commit to a technology investment',
@@ -61,7 +62,7 @@ const SERVICES = [
     id: 'implementation',
     name: 'IMPLEMENTATION\n& RETAINER',
     tagline: 'We build it, deploy it, and keep it improving.',
-    what: `We take the approved system design and build it. We handle integration with your existing tools, deploy to your environment, and run a structured handover with your team. After launch, we stay on retainer — reviewing system performance monthly, shipping improvements, and responding to issues as your business evolves.`,
+    what: `We take the approved design and build it. We handle integration with your existing tools, deploy to your environment, and run a structured handover with your team. Human decision-making stays in the loop at every stage — we build systems that inform and automate, not ones that remove judgment from the people who know your business best. After launch, we stay on retainer: monthly performance reviews, continuous improvements, and a direct line when something needs attention.`,
     whoFor: [
       'Businesses with an approved system design (ours or independently produced)',
       'Teams that want a partner for ongoing operations — not a one-time vendor',
@@ -93,7 +94,7 @@ export default function ServicesPage() {
           WHAT WE DO.
         </h1>
         <p className="font-display font-normal text-[clamp(1.125rem,2vw,1.5rem)] leading-relaxed max-w-2xl opacity-80">
-          Three engagements. One outcome: a business that runs itself better.
+          Three engagements. One standard: your operations running measurably better.
         </p>
       </section>
 
@@ -192,9 +193,11 @@ export default function ServicesPage() {
       {/* ─── CLOSING CTA ──────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-32 md:py-40">
         <h2 className="font-display font-extrabold uppercase text-hero tracking-tightest leading-[0.92] mb-12">
-          READY TO RUN
+          READY TO RUN LEANER —
           <br />
-          LEANER? LET&apos;S TALK.
+          WITHOUT THE GUESSWORK?
+          <br />
+          LET&apos;S TALK.
         </h2>
         <CTAButton href="/contact">BOOK A PROCESS AUDIT</CTAButton>
       </section>

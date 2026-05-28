@@ -4,25 +4,26 @@ import CTAButton from '@/components/CTAButton'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'OptiCore Caribbean is building the Caribbean\'s operational infrastructure layer — starting with the businesses that power the region.',
+    'OptiCore Caribbean builds custom automation and efficiency systems for Caribbean businesses — results-first, human oversight always, zero hype.',
   openGraph: {
     title: 'About — OptiCore Caribbean',
-    description: "Building the Caribbean's efficiency layer.",
+    description:
+      'OptiCore Caribbean builds custom automation and efficiency systems for Caribbean businesses — results-first, human oversight always, zero hype.',
   },
 }
 
 const STORY_SECTIONS = [
   {
     heading: 'WHY WE EXIST',
-    body: `Caribbean businesses are being left behind. Not because the technology isn't available — it is. Not because the problems aren't solvable — they are. But because every efficiency consultancy is built for London, New York, or Silicon Valley. Nobody is building for us.\n\nOptiCore exists to change that. We believe the Caribbean has some of the most complex, multi-constraint operational challenges in the world — small teams, limited infrastructure, import-heavy supply chains, tourism-driven demand volatility. That's not a weakness. That's a forcing function for creative, robust systems.`,
+    body: `Caribbean businesses are being left behind. Not because the talent isn't here — it is. Not because the problems aren't solvable — they are. But because every efficiency consultancy is built for London, New York, or Silicon Valley. Nobody is building for us.\n\nOptiCore exists to change that. We treat technology as a tool, not the destination. The Caribbean has some of the most complex, multi-constraint operational challenges in the world — small teams, import-heavy supply chains, tourism-driven demand volatility, limited infrastructure. Those constraints demand precision. We deliver results that are measurable, documented, and owned by your team — not locked inside a vendor's platform.`,
   },
   {
     heading: 'HOW WE WORK',
-    body: `We don't sell software. We don't resell third-party tools. We don't send you a report and disappear.\n\nWe embed with your team. We learn how your business actually runs — not how you think it runs, and not how the org chart says it should. We design systems that work within your constraints, with your people, on your budget. And we stay until it works.`,
+    body: `We don't sell software. We don't resell third-party tools. We don't hand over a report and disappear.\n\nWe embed with your team. We learn how your business actually operates — not how the org chart says it should, and not how you'd describe it to an investor. We design systems that work within your real constraints, with your people, on your budget. Human decision-makers stay in the loop at every stage. And if the honest answer is that your current process works better than anything we'd build — we'll tell you that too.`,
   },
   {
-    heading: 'WHERE WE\'RE GOING',
-    body: `The first chapter is individual businesses — making them faster, leaner, more data-driven. The second chapter is industry infrastructure: shared platforms, regional data pipelines, sector-wide standards.\n\nWe're building the foundation. Every engagement is a node in a larger network. In ten years, we want to look back at a Caribbean that runs on the systems we helped build.`,
+    heading: "WHERE WE'RE GOING",
+    body: `The first chapter is individual businesses — making them faster, leaner, better-informed. The second chapter is industry infrastructure: shared platforms, regional data pipelines, sector-wide standards.\n\nEvery engagement is a node in a larger network. We're building the foundation — not just systems, but a new standard for how Caribbean businesses operate. In ten years, we want to look back at a region that runs on the systems we helped build.`,
   },
 ]
 
@@ -118,9 +119,11 @@ export default function AboutPage() {
       {/* ─── CLOSING CTA ──────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-32 md:py-40">
         <h2 className="font-display font-extrabold uppercase text-hero tracking-tightest leading-[0.92] mb-12">
-          READY TO RUN
+          READY TO RUN LEANER —
           <br />
-          LEANER? LET&apos;S TALK.
+          WITHOUT THE GUESSWORK?
+          <br />
+          LET&apos;S TALK.
         </h2>
         <CTAButton href="/contact">BOOK A PROCESS AUDIT</CTAButton>
       </section>
