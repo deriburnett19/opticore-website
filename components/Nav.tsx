@@ -39,6 +39,7 @@ export default function Nav() {
           <Link href="/" aria-label="OptiCore Caribbean — home">
             <Image
               src="/opticore-icon-transparent.svg"
+              style={{ mixBlendMode: 'multiply' }}
               alt="OptiCore Caribbean"
               width={320}
               height={80}
@@ -93,6 +94,7 @@ export default function Nav() {
           <Link href="/" onClick={() => setMobileOpen(false)} aria-label="Home">
             <Image
               src="/opticore-icon-transparent.svg"
+              style={{ mixBlendMode: 'multiply' }}
               alt="OptiCore Caribbean"
               width={280}
               height={64}

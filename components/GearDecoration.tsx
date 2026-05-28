@@ -71,15 +71,15 @@ export default function GearDecoration() {
       className="w-full h-full"
     >
       {/* Outer gear body */}
-      <path d={gearPath} stroke="#EBEBEB" strokeWidth="1.5" fill="none" />
+      <path d={gearPath} stroke="#AAAAAA" strokeWidth="1.5" fill="none" />
       {/* Inner ring */}
-      <circle cx={cx} cy={cy} r={innerR} stroke="#EBEBEB" strokeWidth="1" fill="none" />
+      <circle cx={cx} cy={cy} r={innerR} stroke="#AAAAAA" strokeWidth="1" fill="none" />
       {/* Mid ring */}
-      <circle cx={cx} cy={cy} r={hubR + 18} stroke="#EBEBEB" strokeWidth="1" fill="none" />
+      <circle cx={cx} cy={cy} r={hubR + 18} stroke="#AAAAAA" strokeWidth="1" fill="none" />
       {/* Hub */}
-      <circle cx={cx} cy={cy} r={hubR} stroke="#EBEBEB" strokeWidth="1.5" fill="none" />
+      <circle cx={cx} cy={cy} r={hubR} stroke="#AAAAAA" strokeWidth="1.5" fill="none" />
       {/* Center dot */}
-      <circle cx={cx} cy={cy} r={8} stroke="#EBEBEB" strokeWidth="1.5" fill="none" />
+      <circle cx={cx} cy={cy} r={8} stroke="#AAAAAA" strokeWidth="1.5" fill="none" />
       {/* Spokes */}
       {spokes.map((s, i) => (
         <line
@@ -88,7 +88,7 @@ export default function GearDecoration() {
           y1={s.y1}
           x2={s.x2}
           y2={s.y2}
-          stroke="#EBEBEB"
+          stroke="#AAAAAA"
           strokeWidth="1"
         />
       ))}
