@@ -15,7 +15,7 @@ const FEATURES = [
   'Vehicle management — full ownership history, documents, service records',
   'Mechanic discovery — find certified mechanics by location, specialty, and rating',
   'Parts marketplace — buy, sell, and request hard-to-find parts',
-  'Car listings — private and dealer listings with AI-assisted valuation',
+  'Car listings — private and dealer listings with data-driven valuation',
   'BTA inspection reminders — automated notifications tied to vehicle records',
   'WhatsApp integration — enquiries, reminders, and status updates via WhatsApp',
 ]

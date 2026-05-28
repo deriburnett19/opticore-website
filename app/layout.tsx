@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: '%s — OptiCore Caribbean',
   },
   description:
-    'We partner with Caribbean businesses to audit, design, and deploy AI systems that cut waste and unlock growth.',
+    'We partner with Caribbean businesses to audit, design, and deploy custom systems that cut waste and unlock growth.',
   openGraph: {
     type: 'website',
     locale: 'en_BB',

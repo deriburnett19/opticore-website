@@ -16,7 +16,7 @@ const SERVICES = [
     id: 'process-audit',
     name: 'PROCESS AUDIT',
     tagline: 'Find the friction. Quantify the cost.',
-    what: `We spend time with your team — observing, interviewing, and documenting every workflow from front-office operations to back-office processes. We identify every friction point, every manual bottleneck, and every hour lost to work that a system could handle. You receive a precise cost-of-inefficiency report with a prioritised AI opportunity matrix.`,
+    what: `We spend time with your team — observing, interviewing, and documenting every workflow from front-office operations to back-office processes. We identify every friction point, every manual bottleneck, and every hour lost to work that a system could handle. You receive a precise cost-of-inefficiency report with a prioritised opportunity matrix.`,
     whoFor: [
       'Growing businesses spending money on manual, repetitive tasks',
       'Companies preparing for a fundraise or acquisition that need clean operations',
@@ -27,7 +27,7 @@ const SERVICES = [
       'Full workflow map (visual + documented)',
       'Friction point report with severity scoring',
       'Cost-of-inefficiency analysis (time × cost)',
-      'AI opportunity matrix — ranked by ROI',
+      'Opportunity matrix — ranked by ROI',
       '30-day action plan with clear next steps',
     ],
     timeline: '2–3 weeks',
@@ -38,7 +38,7 @@ const SERVICES = [
     id: 'system-design',
     name: 'SYSTEM DESIGN',
     tagline: 'Architecture built around how you actually work.',
-    what: `Based on your audit findings, we design a custom AI system architecture built around your actual operations. Not a generic SaaS subscription. Not a chatbot. A purpose-built system with a defined data model, integration plan, and phased implementation roadmap that your team can understand and own.`,
+    what: `Based on your audit findings, we design a custom system architecture built around your actual operations. Not a generic SaaS subscription. Not a chatbot. A purpose-built system with a defined data model, integration plan, and phased implementation roadmap that your team can understand and own.`,
     whoFor: [
       'Businesses who have completed or have equivalent insight to a Process Audit',
       'Operations teams ready to commit to a technology investment',
@@ -64,12 +64,12 @@ const SERVICES = [
     what: `We take the approved system design and build it. We handle integration with your existing tools, deploy to your environment, and run a structured handover with your team. After launch, we stay on retainer — reviewing system performance monthly, shipping improvements, and responding to issues as your business evolves.`,
     whoFor: [
       'Businesses with an approved system design (ours or independently produced)',
-      'Teams that want a partner for ongoing AI operations — not a one-time vendor',
+      'Teams that want a partner for ongoing operations — not a one-time vendor',
       'Operations leaders who want measurable monthly improvement',
       'Businesses scaling fast and need their systems to scale with them',
     ],
     whatYouGet: [
-      'Fully built and deployed AI system',
+      'Fully built and deployed system',
       'Integration with existing tools and databases',
       'Staff training and documentation',
       'Go-live support and stabilisation period',

@@ -9,11 +9,11 @@ import ScrollGear from '@/components/ScrollGear'
 export const metadata: Metadata = {
   title: 'OptiCore Caribbean — Business Efficiency Engineers',
   description:
-    'We partner with Caribbean businesses to audit, design, and deploy AI systems that cut waste and unlock growth.',
+    'We help Caribbean businesses cut waste and unlock growth with custom automation systems — built with human oversight and zero hype.',
   openGraph: {
     title: 'OptiCore Caribbean — Business Efficiency Engineers',
     description:
-      'We partner with Caribbean businesses to audit, design, and deploy AI systems that cut waste and unlock growth.',
+      'We help Caribbean businesses cut waste and unlock growth with custom automation systems — built with human oversight and zero hype.',
   },
 }
 
@@ -21,17 +21,17 @@ const VALUE_ITEMS = [
   {
     header: 'FASTER',
     description:
-      'Cut operational time by 40%+ through intelligent automation that handles the repetitive work your team is wasting hours on.',
+      'Cut operational time by 40%+ by handing repetitive work to systems built to handle it — so your people do the work only people can do.',
   },
   {
-    header: 'SMARTER',
+    header: 'SHARPER',
     description:
-      'Decisions powered by your own business data, not guesswork. Every system we build surfaces the insight that matters.',
+      "Decisions driven by your own data, not guesswork and not a black box. You'll always understand why a system recommends what it does. The final call stays with you.",
   },
   {
-    header: 'CARIBBEAN',
+    header: 'GROUNDED',
     description:
-      "Built for our market, our scale, our reality. We don't adapt foreign playbooks — we build from the ground up for the region.",
+      "Built for the Caribbean market, our scale, our reality. And built with restraint: we deploy a new system only when it genuinely outperforms what you already have.",
   },
 ]
 
@@ -46,9 +46,9 @@ const SERVICES = [
   {
     title: 'SYSTEM DESIGN',
     description:
-      'Custom AI architecture designed around how your business actually runs. Not off-the-shelf software. Not a chatbot bolted onto your website. A system purpose-built for your operations.',
+      'Custom architecture designed around how your business actually runs. Not off-the-shelf software. Not a chatbot bolted onto your website. A system purpose-built for your operations, with human decision-makers kept firmly in the loop.',
     imageLeft: false,
-    altText: 'System design — AI architecture blueprint',
+    altText: 'System design — custom architecture blueprint',
   },
   {
     title: 'IMPLEMENTATION & RETAINER',
@@ -84,12 +84,11 @@ export default function HomePage() {
             <p className="text-sm md:text-base font-medium tracking-[0.15em] uppercase mb-7 opacity-50">BUSINESS EFFICIENCY ENGINEERS</p>
 
             <h1 className="font-display font-extrabold uppercase text-hero tracking-tightest mb-8">
-              AI THAT RUNS YOUR BUSINESS BETTER.
+              YOUR BUSINESS, RUNNING THE WAY IT SHOULD.
             </h1>
 
             <p className="font-display font-normal text-[clamp(1.125rem,2vw,1.5rem)] leading-relaxed max-w-xl mb-12 opacity-80">
-              We partner with Caribbean businesses to audit, design, and deploy AI systems
-              that cut waste and unlock growth.
+              We partner with Caribbean businesses to find where time and money leak out — then build the systems that stop it. No hype. No buzzwords. Just measurable results, and the honesty to tell you when the smartest move is to leave things alone.
             </p>
 
             <CTAButton href="/contact">BOOK A PROCESS AUDIT</CTAButton>
@@ -153,9 +152,11 @@ export default function HomePage() {
       {/* ─── CLOSING CTA ─────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-32 md:py-40" aria-label="Call to action">
         <h2 className="font-display font-extrabold uppercase text-hero tracking-tightest leading-[0.92] mb-12">
-          READY TO RUN
+          READY TO RUN LEANER —
           <br />
-          LEANER? LET&apos;S TALK.
+          WITHOUT THE GUESSWORK?
+          <br />
+          LET&apos;S TALK.
         </h2>
         <CTAButton href="/contact">BOOK A PROCESS AUDIT</CTAButton>
       </section>

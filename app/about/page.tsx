@@ -4,17 +4,17 @@ import CTAButton from '@/components/CTAButton'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'OptiCore Caribbean is building the Caribbean\'s AI infrastructure layer — starting with the businesses that power the region.',
+    'OptiCore Caribbean is building the Caribbean\'s operational infrastructure layer — starting with the businesses that power the region.',
   openGraph: {
     title: 'About — OptiCore Caribbean',
-    description: 'Building the Caribbean\'s AI layer.',
+    description: "Building the Caribbean's efficiency layer.",
   },
 }
 
 const STORY_SECTIONS = [
   {
     heading: 'WHY WE EXIST',
-    body: `Caribbean businesses are being left behind. Not because the technology isn't available — it is. Not because the problems aren't solvable — they are. But because every AI consultancy is built for London, New York, or Silicon Valley. Nobody is building for us.\n\nOptiCore exists to change that. We believe the Caribbean has some of the most complex, multi-constraint operational challenges in the world — small teams, limited infrastructure, import-heavy supply chains, tourism-driven demand volatility. That's not a weakness. That's a forcing function for creative, robust systems.`,
+    body: `Caribbean businesses are being left behind. Not because the technology isn't available — it is. Not because the problems aren't solvable — they are. But because every efficiency consultancy is built for London, New York, or Silicon Valley. Nobody is building for us.\n\nOptiCore exists to change that. We believe the Caribbean has some of the most complex, multi-constraint operational challenges in the world — small teams, limited infrastructure, import-heavy supply chains, tourism-driven demand volatility. That's not a weakness. That's a forcing function for creative, robust systems.`,
   },
   {
     heading: 'HOW WE WORK',
@@ -36,7 +36,7 @@ const TEAM = [
   {
     name: 'CTO PARTNER',
     role: 'Chief Technology Officer',
-    bio: 'Full-stack systems architect with a track record of shipping production AI at scale across regulated industries.',
+    bio: 'Full-stack systems architect with a track record of shipping production automation systems at scale across regulated industries.',
     initials: 'CTO',
   },
 ]
@@ -48,7 +48,7 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-6 md:px-12 pt-24 pb-20 border-b border-black">
         <p className="text-label opacity-50 mb-6">ABOUT</p>
         <h1 className="font-display font-extrabold uppercase text-hero tracking-tightest leading-none">
-          WE&apos;RE BUILDING THE CARIBBEAN&apos;S AI LAYER.
+          WE&apos;RE BUILDING THE CARIBBEAN&apos;S EFFICIENCY LAYER.
         </h1>
       </section>
 
