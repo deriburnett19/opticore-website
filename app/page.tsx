@@ -4,7 +4,7 @@ import CTAButton from '@/components/CTAButton'
 import SectionHeading from '@/components/SectionHeading'
 import ValueRow from '@/components/ValueRow'
 import ServiceBlock from '@/components/ServiceBlock'
-import GearDecoration from '@/components/GearDecoration'
+import ScrollGear from '@/components/ScrollGear'
 
 export const metadata: Metadata = {
   title: 'OptiCore Caribbean — Business Efficiency Engineers',
@@ -75,10 +75,10 @@ export default function HomePage() {
       <section className="relative min-h-[calc(100vh-4rem)] md:min-h-[calc(100vh-5rem)] flex items-center overflow-hidden">
         {/* Decorative gear — right side, large, purely visual */}
         <div
-          className="absolute right-0 top-1/2 -translate-y-1/2 w-[55vw] max-w-[700px] opacity-100 pointer-events-none select-none"
+          className="absolute right-0 top-1/2 -translate-y-1/2 w-[55vw] max-w-[700px] pointer-events-none select-none"
           aria-hidden="true"
         >
-          <GearDecoration />
+          <ScrollGear />
         </div>
 
         {/* Hero content */}
