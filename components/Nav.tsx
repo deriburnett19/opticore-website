@@ -38,7 +38,7 @@ export default function Nav() {
           {/* Logo */}
           <Link href="/" aria-label="OptiCore Caribbean — home">
             <Image
-              src="/opticore-icon.svg"
+              src="/opticore-icon-transparent.svg"
               alt="OptiCore Caribbean"
               width={320}
               height={80}
@@ -92,7 +92,7 @@ export default function Nav() {
         <div className="flex items-center justify-between px-6 h-20 border-b border-black flex-shrink-0">
           <Link href="/" onClick={() => setMobileOpen(false)} aria-label="Home">
             <Image
-              src="/opticore-icon.svg"
+              src="/opticore-icon-transparent.svg"
               alt="OptiCore Caribbean"
               width={280}
               height={64}
