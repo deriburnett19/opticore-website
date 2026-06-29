@@ -29,7 +29,6 @@ export default function Footer() {
           {[
             { href: '/about', label: 'About' },
             { href: '/contact', label: 'Contact' },
-            { href: '#', label: 'LinkedIn' },
           ].map(({ href, label }) => (
             <li key={label}>
               <Link

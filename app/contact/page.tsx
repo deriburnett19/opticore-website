@@ -43,10 +43,10 @@ export default function ContactPage() {
               <div>
                 <p className="text-label opacity-50 mb-2">EMAIL</p>
                 <a
-                  href="mailto:hello@opticorecaribbean.com"
+                  href="mailto:derib@opticorecaribbean.com"
                   className="font-sans text-[1.0625rem] border-b border-black pb-px hover:opacity-50 transition-opacity"
                 >
-                  hello@opticorecaribbean.com
+                  derib@opticorecaribbean.com
                 </a>
               </div>
 
@@ -54,12 +54,12 @@ export default function ContactPage() {
               <div>
                 <p className="text-label opacity-50 mb-2">WHATSAPP</p>
                 <a
-                  href="https://wa.me/12461234567"
+                  href="https://wa.me/12462582718"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-sans text-[1.0625rem] border-b border-black pb-px hover:opacity-50 transition-opacity"
                 >
-                  +1 (246) XXX-XXXX
+                  +1 (246) 258-2718
                 </a>
               </div>
 
