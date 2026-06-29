@@ -32,8 +32,8 @@ const SERVICES = [
       '30-day action plan with clear next steps',
     ],
     timeline: '2–3 weeks',
-    price: '$5,000 BDS',
-    priceNote: 'Fixed fee. No hidden costs.',
+    price: 'CUSTOM',
+    priceNote: 'Scoped to your business.',
   },
   {
     id: 'system-design',
@@ -55,8 +55,8 @@ const SERVICES = [
       'Vendor/tool evaluation if applicable',
     ],
     timeline: '3–4 weeks',
-    price: '$15,000 BDS',
-    priceNote: 'Includes one round of revisions.',
+    price: 'CUSTOM',
+    priceNote: 'Scoped to your business.',
   },
   {
     id: 'implementation',
@@ -79,8 +79,8 @@ const SERVICES = [
       'Priority support channel',
     ],
     timeline: 'Custom — based on scope',
-    price: 'Custom',
-    priceNote: 'Scoped after System Design phase.',
+    price: 'CUSTOM',
+    priceNote: 'Scoped to your business.',
   },
 ]
 
@@ -176,7 +176,7 @@ export default function ServicesPage() {
                 </p>
               </div>
               <div>
-                <p className="text-label opacity-40 mb-2">STARTING AT</p>
+                <p className="text-label opacity-40 mb-2">INVESTMENT</p>
                 <p className="font-display font-extrabold uppercase text-2xl tracking-tightest">
                   {svc.price}
                 </p>
